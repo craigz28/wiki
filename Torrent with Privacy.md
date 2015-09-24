@@ -1,5 +1,4 @@
-Torrent with Privacy
-https://craigsmith.net/2015/08/30/torrent-with-privacy/
+Torrent with Privacy | https://craigsmith.net/2015/08/30/torrent-with-privacy/
 
 Requirements
 
