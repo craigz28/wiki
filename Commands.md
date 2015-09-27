@@ -11,3 +11,5 @@ Speedtest Command Line
 chmod +x speedtest-cli
 
 ./speedtest-cli
+
+Also - wget http://cachefly.cachefly.net/400mb.test -O /dev/null
