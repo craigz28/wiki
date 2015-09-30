@@ -19,3 +19,7 @@ Since secure erase features have been removed from the GUI, command line is as f
 diskutil secureErase 0 /dev/disk5
 
 There are multiple levels to secureErase, level 0 is the basic level for writing all zeros to the disk
+
+## Full packet capture
+
+tcpdump -nnvvXSs 1514
