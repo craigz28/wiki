@@ -1,6 +1,6 @@
 Commands, etc.
 
-Create an OS X USB stick installer
+## Create an OS X USB stick installer
 - sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ OS\ X\ Yosemite.app
 
 
