@@ -1,5 +1,7 @@
 ## Static IP Address in Ubuntu
 
+/etc/network/interfaces
+
 auto eth0
 
 iface eth0 inet static
