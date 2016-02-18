@@ -23,3 +23,9 @@ There are multiple levels to secureErase, level 0 is the basic level for writing
 ## Full packet capture
 
 tcpdump -nnvvXSs 1514
+
+## Get SSL cert serial number
+openssl x509 -in /etc/ssl/certs/xyz.crt -serial -noout
+
+## Get SSH fingerprint
+ssh-keygen -lf root/ssh/id_rsa
