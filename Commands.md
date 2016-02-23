@@ -31,6 +31,7 @@ There are multiple levels to secureErase, level 0 is the basic level for writing
 #### Get the fingerprint
 * openssl x509 -in etc/ssl/certs/cert.pem -fingerprint -sha1
 * openssl x509 -in etc/ssl/certs/cert.pem -fingerprint -sha256
+
 #### Generate the public key of both the cert and the key
 * openssl x509 -pubkey -noout -in etc/ssl/certs/cert.pem
 * openssl rsa -in etc/ssl/certs/key.pem -pubout
