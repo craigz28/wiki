@@ -35,6 +35,7 @@ There are multiple levels to secureErase, level 0 is the basic level for writing
 #### Generate the public key of both the cert and the key
 * openssl x509 -pubkey -noout -in etc/ssl/certs/cert.pem
 * openssl rsa -in etc/ssl/certs/key.pem -pubout
+
 #### Generate the modulus and then hash it for both the cert and the key
 * openssl x509 -noout -modulus -in etc/ssl/certs/cert.pem | openssl sha256
 * openssl rsa -noout -modulus -in etc/ssl/certs/key.pem | openssl sha256
