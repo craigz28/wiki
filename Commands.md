@@ -28,8 +28,10 @@ There are multiple levels to secureErase, level 0 is the basic level for writing
 * openssl x509 -in /etc/ssl/certs/xyz.crt -serial -noout
 * openssl x509 -in etc/ssl/certs/cert.pem -fingerprint -sha1
 * openssl x509 -in etc/ssl/certs/cert.pem -fingerprint -sha256
-* sudo openssl x509 -pubkey -noout -in etc/ssl/certs/cert.pem
-* sudo openssl rsa -in etc/ssl/certs/key.pem -pubout
+* openssl x509 -pubkey -noout -in etc/ssl/certs/cert.pem
+* openssl rsa -in etc/ssl/certs/key.pem -pubout
+* openssl x509 -noout -modulus -in etc/ssl/certs/cert.pem | openssl sha256
+* openssl rsa -noout -modulus -in etc/ssl/certs/key.pem | openssl sha256
 
 ## Get SSH fingerprint
 * ssh-keygen -lf root/ssh/id_rsa
