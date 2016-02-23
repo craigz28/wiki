@@ -27,6 +27,7 @@ There are multiple levels to secureErase, level 0 is the basic level for writing
 ## Helpful openssl commands
 #### Get the serial number
 * openssl x509 -in /etc/ssl/certs/xyz.crt -serial -noout
+
 #### Get the fingerprint
 * openssl x509 -in etc/ssl/certs/cert.pem -fingerprint -sha1
 * openssl x509 -in etc/ssl/certs/cert.pem -fingerprint -sha256
