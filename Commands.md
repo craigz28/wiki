@@ -42,3 +42,6 @@ There are multiple levels to secureErase, level 0 is the basic level for writing
 
 ## Get SSH fingerprint
 * ssh-keygen -lf root/ssh/id_rsa
+
+## Merge multiple pcap files if you have wireshark installed
+* mergecap -w merge.pcap cap1.pcap cap2.pcap cap3.pcap
